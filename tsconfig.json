@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    // Configuración principal
+    "target": "ES2022",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "outDir": "./dist",
+    "rootDir": "./src",
+    
+    // Habilitar módulos ESM de Node.js
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    
+    // Configurar tipos de Node.js
+    "types": ["node"],
+    
+    // Configuración de seguridad y comprobación de tipos
+    "strict": true,
+    "skipLibCheck": true,
+    
+    // Otras configuraciones (mantén las que necesites)
+    "sourceMap": true,
+    "declaration": true,
+    "declarationMap": true,
+    "noUncheckedIndexedAccess": true,
+    "exactOptionalPropertyTypes": true,
+    //"verbatimModuleSyntax": true,
+    "isolatedModules": true,
+    //"noUncheckedSideEffectImports": true,
+    "moduleDetection": "force"
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
+}
