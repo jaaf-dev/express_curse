@@ -1,0 +1,1 @@
+export { parseQueryIntStrict } from './parseQueryIntStrict';
